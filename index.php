@@ -8,6 +8,9 @@ $result = $connect->query("select * from users");
 <html>
     <head>
         <style>
+            body {
+                margin-left: 20px;
+            }
             table {
                 border-collapse: collapse;
             }
