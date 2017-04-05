@@ -6,6 +6,18 @@ $result = $connect->query("select * from users");
 ?>
 
 <html>
+    <head>
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px black solid;
+            }
+
+        </style>
+    </head>
     <body>
         <table>
             <thead>
